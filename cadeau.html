@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Choix des Cadeaux</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #5b3481;
+      color: white;
+    }
+    .card {
+      background-color: white;
+      color: #5b3481;
+    }
+    .table thead {
+      background-color: #5b3481;
+      color: white;
+    }
+    .btn-main {
+      background-color: #5b3481;
+      color: white;
+    }
+    .btn-main:hover {
+      background-color: #452866;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="card shadow p-4">
+      <h2 class="text-center fw-bold mb-4">Sélectionnez un cadeau</h2>
+      <form action="#" method="post">
+        <div class="table-responsive">
+          <table class="table table-bordered align-middle">
+            <thead>
+              <tr>
+                <th>Choix</th>
+                <th>Cadeau</th>
+                <th>Prix (S)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><input type="radio" name="cadeau"></td><td>Micro-ondes</td><td>100</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Congélateur</td><td>300</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Frigo</td><td>250</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Machine à laver</td><td>200</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Cuisines</td><td>150</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>TV</td><td>350</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Cook rice</td><td>50</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Grille pain</td><td>40</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Friteuse</td><td>60</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Aspirateur</td><td>120</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Four du chef</td><td>180</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Gaufrier</td><td>30</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Mixer</td><td>70</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Centrifugeuse</td><td>90</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Ventilateur</td><td>80</td></tr>
+              <tr><td><input type="radio" name="cadeau"></td><td>Chèque</td><td>Montant libre</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="text-center mt-4">
+          <button type="submit" class="btn btn-main">Soumettre mon choix</button>
+          <a href="index.html" class="btn btn-secondary ms-2">Retour à l'invitation</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
